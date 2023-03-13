@@ -1,7 +1,7 @@
 package main
 
 import (
-	"backend/pkg/routes/sample"
+	"backend/pkg/routes/example"
 	"github.com/gofiber/fiber/v2"
 	"log"
 )
@@ -9,7 +9,7 @@ import (
 func main() {
 	app := fiber.New()
 
-	sample.Register(app)
+	example.Register(app)
 
 	log.Fatal(app.Listen(":3000"))
 }

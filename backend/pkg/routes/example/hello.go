@@ -1,4 +1,4 @@
-package sample
+package example
 
 import "github.com/gofiber/fiber/v2"
 
