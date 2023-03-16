@@ -72,6 +72,8 @@ func main() {
 	autoMigrate()
 
 	example.Register(app)
+	auth.Register(app)
+	user.Register(app)
 
 	log.Fatal(app.Listen(":3000"))
 }
